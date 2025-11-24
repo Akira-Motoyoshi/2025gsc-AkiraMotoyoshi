@@ -12,7 +12,7 @@
 **最短距離・歩きやすさ・夜の安全性（街灯密度）** の3点から比較・分析を行う。  
 必要に応じて **Google Earth / QGIS / OpenStreetMap / Strava** を使用し、データ取得・可視化・分析を行う。
 
-### 🇬🇧 English  
+### 🌐 English  
 This study analyzes the commuting route from *Fuchinobe Station (North Exit)* to *Aoyama Gakuin University Sagamihara Campus*.  
 The evaluation focuses on **distance, walkability (obstacles), and nighttime safety (streetlight density)**.  
 Data collection and visualization are performed using **Google Earth, QGIS, OpenStreetMap, and Strava**.
@@ -26,7 +26,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - 学生がルートを選ぶ理由を把握する  
 - QGIS で地図として可視化し、レポートとしてまとめる  
 
-### 🇬🇧  
+### 🌐 
 - Quantitatively compare **distance, safety, and walkability** of commuting routes  
 - Understand why students choose specific routes  
 - Visualize maps in QGIS and summarize findings in a final report  
@@ -42,7 +42,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析
 - **ChatGPT**：研究設計、手順の作成、分析補助、コーディング補助 
 
-### 🇬🇧  
+### 🌐 
 - **QGIS:** distance measurement, streetlight density analysis, map creation  
 - **OpenStreetMap:** road network, signals, crosswalks, streetlight data  
 - **Google Earth:** visual confirmation of sidewalks and surroundings  
