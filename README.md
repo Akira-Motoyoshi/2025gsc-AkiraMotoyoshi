@@ -1,174 +1,91 @@
 # 2025gsc-AkiraMotoyoshi
-# 🚶‍♂️ 登下校ルート分析（淵野辺駅北口 → 青山学院大学相模原キャンパス）
-## School Commuting Route Analysis  
-### (Fuchinobe Station North Exit → Aoyama Gakuin Univ. Sagamihara Campus)
 
+## 🌍 プロジェクト概要 / Project Overview
+このリポジトリは、2025年度 青山学院大学地球社会共生学部（GSC）において、  
+**本吉顕が取り組む登下校ルートの地理空間分析プロジェクト**の成果物です。
+
+本研究では、  
+**淵野辺駅北口 → 青山学院大学相模原キャンパス**の通学ルートを対象に、  
+以下の3つの観点から科学的分析を行います：
+
+- **最短距離**
+- **歩きやすさ（障害物・横断要素）**
+- **夜間の安全性（街灯密度）**
+
+Google Earth / QGIS / OpenStreetMap / Strava / ChatGPT など、  
+複数ツールを横断的に活用し、データ取得・可視化・分析を行いました。
 ---
-##  **📂Power Point（発表スライド）**  
+
+## 📂 **Power Point（発表スライド）**  
   👉 [こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
 
----
-## 📌 1. 研究概要 / Research Overview
-
-### 🇯🇵 日本語  
-本研究は、実際の学生が通学で使用する「淵野辺駅北口 → 青山学院大学相模原キャンパス」のルートを対象に、  
-**最短距離・歩きやすさ・夜の安全性（街灯密度）** の3点から比較・分析を行う。  
-必要に応じて **Google Earth / QGIS / OpenStreetMap / Strava** を使用し、データ取得・可視化・分析を行う。
-
-### 🌐 English  
-This study analyzes the commuting route from *Fuchinobe Station (North Exit)* to *Aoyama Gakuin University Sagamihara Campus*.  
-The evaluation focuses on **distance, walkability (obstacles), and nighttime safety (streetlight density)**.  
-Data collection and visualization are performed using **Google Earth, QGIS, OpenStreetMap, and Strava**.
+※ 発表用スライドとして作成した PowerPoint データで、本研究の概要・分析結果・マップ画像などをまとめています。
 
 ---
 
-## 📌 2. 研究目的 / Objectives
-
-### 🇯🇵  日本語
-- 通学ルートの **距離・安全性・歩きやすさ** を定量的に比較  
-- 学生がルートを選ぶ理由を把握する  
-- QGIS で地図として可視化し、レポートとしてまとめる  
-
-### 🌐 English
-- Quantitatively compare **distance, safety, and walkability** of commuting routes  
-- Understand why students choose specific routes  
-- Visualize maps in QGIS and summarize findings in a final report  
+## 🎯 目的・背景 / Purpose & Background
+- 大学周辺の通学ルートは、学生の安全・効率・ストレスに大きく関わる重要な要素である。  
+- 特に **夜間の安全性** や **歩道環境** は、学生のルート選択に強く影響する。
+- 本プロジェクトでは、実際に学生が選ぶルートを **データに基づいて定量評価**し、  
+  より安全で合理的な登下校ルートの提示を目指す。
 
 ---
 
-## 🛠 3. 使用ツール / Tools
+## 🛠️ 使用技術・環境 / Tools & Environment
 
-### 🇯🇵  日本語
-- **QGIS**：距離計測、街灯密度分析、地図作成  
-- **OpenStreetMap (OSM)**：道路・信号・横断歩道・街灯データ  
-- **Google Earth**：景観確認、歩道状況のチェック  
-- **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析
-- **ChatGPT**：研究設計、手順の作成、分析補助、コーディング補助 
+### 🔧 使用ツール
+- **QGIS**：距離測定、街灯解析、地図作成  
+- **OpenStreetMap (OSM)**：道路・横断歩道・信号機・街灯データ  
+- **Google Earth**：景観・歩道状況の現地確認  
+- **Strava（無料版）**：歩行ログ（GPX）取得、速度・停止状況分析  
+- **ChatGPT**：研究設計、分析補助、文章作成、ワークフロー整理  
+- **PowerPoint**：発表資料作成  
+  👉 https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA
 
-### 🌐 English
-- **QGIS:** distance measurement, streetlight density analysis, map creation  
-- **OpenStreetMap:** road network, signals, crosswalks, streetlight data  
-- **Google Earth:** visual confirmation of sidewalks and surroundings  
-- **Strava (Free):** walking logs (GPX), speed, and stopping time analysis
-- **ChatGPT:** research planning support, analytical assistance, workflow design, coding support
-
----
-
-## 📍 4. 研究フロー / Research Workflow
+### 📁 データソース
+- OSM オープンデータ  
+- Strava GPX 実測データ  
+- 現地夜間調査データ（明るさ5段階評価）
 
 ---
 
-### 📍 ① 対象区間の設定 / Defining the Study Area  ✅DONE
-- **淵野辺駅北口 → 青山学院大学相模原キャンパス正門**  
-- 全ツールの準備（QGIS / OSM / Google Earth / Strava）
+## 🔍 実装・手法 / Methods
+
+### 1. 通学ルートの定義
+- 対象：**淵野辺駅北口 → 青山学院大学相模原キャンパス正門**
+- 学生が最も多く使用する「代表ルート」を QGIS で LineString として作成
+
+### 2. データ収集
+- Strava を用いて学生が実際に歩いた GPX データを取得  
+- OSM データより信号・横断歩道・街灯データを取得  
+- Google Earth で歩道状況を確認  
+
+### 3. 前処理
+- GPX の速度低下区間の抽出  
+- 歩道データと停止位置の突合  
+- 街灯座標の整理  
+
+### 4. 分析（QGIS）
+- **距離分析**：総距離（m）を計測  
+- **障害物分析**：信号・横断歩道・歩道状況の可視化  
+- **夜間安全性分析**：街灯密度ヒートマップ作成  
+- **実測ログ比較**：速度低下区間のマッピング  
+
+### 5. 考察
+- 距離・歩きやすさ・安全性の3軸で総合評価  
+- アンケート結果を踏まえ、学生がルートを選ぶ理由を分析  
 
 ---
 
-### 📍 ② 評価項目 / Evaluation Items  ✅DONE
-
-#### 🇯🇵日本語
-1. **最短距離**  
-2. **歩きやすさ（障害物）**  
-   - 信号・横断歩道  
-   - 歩道の広さ・段差  
-3. **夜の安全性（街灯密度）**
-
-#### 🌐English
-1. **Shortest distance**  
-2. **Walkability (obstacles)**  
-   - Traffic lights, crosswalks  
-   - Sidewalk conditions  
-3. **Nighttime safety (streetlight density)**  
-
----
-
-### 📍 ③ 基本ルートの決定 / Defining the Representative Route  ✅DONE
-- 実際に学生が最も多く使う **代表ルートを1本設定**  
-- QGIS で LineString として作成  
-- 全ての分析はこのルートを対象に行う  
-
----
-
-### 📍 ④ 最短距離の測定（QGIS） / Distance Measurement  
-- QGIS の計測ツール or ネットワーク解析を使用  
-- ルートの総距離（m）を算出  
-- 結果はレポートへ反映  
-
----
-
-### 📍 ⑤ 歩きやすさ分析（Strava + OSM + QGIS）  
-#### 1. Strava で歩行ログを取得  
-- 実際に歩き、**GPX を記録**  
-- 停止時間（信号待ち）や平均速度を取得  
-
-#### 2. QGIS に GPX をインポート  
-- 速度低下区間・停止ポイントを可視化  
-
-#### 3. OSM データとの重ね合わせ  
-- 信号・横断歩道・歩道情報を追加  
-- ルートと比較し、障害物の位置を定量化  
-
----
-
-### 📍 ⑥ 夜の安全性（街灯密度）分析  
-#### 🇯🇵日本語  
-- OSM の `highway=street_lamp` を QGIS に読み込み  
-- 夜に実際のルートを歩いて明るさを5段階評価  
-- 暗い区間・死角をチェック  
-- 街灯密度マップを QGIS で作成  
-
-#### 🌐English  
-- Import streetlight data from OSM  
-- Walk the route at night and evaluate brightness (1–5 scale)  
-- Identify dark zones and blind spots  
-- Generate a streetlight density map in QGIS  
-
----
-
-### 📍 ⑦ 学生アンケート / Student Survey  
-- Google Forms を使用  
-- 回答項目：  
-  - 普段の通学ルート  
-  - ルート選択理由  
-  - 夜に歩くか  
-  - 満足度（5段階）  
-- 必要に応じて回答ルートを QGIS に追加  
-
----
-
-### 📍 ⑧ 分析・考察 / Analysis & Discussion  
-QGIS で以下の可視化を作成：
-
-- **距離マップ**  
-- **Strava ログ重ね合わせマップ**  
-- **信号・横断歩道マップ**  
-- **街灯密度マップ**
-
-考察観点：
-
-- 距離差  
-- 障害物の多さ  
-- 夜の安全性  
-- 学生アンケートの傾向  
-
----
-
-### 📍 ⑨ 最終成果物 / Final Deliverables
-
-#### 1. QGIS 可視化マップ  
+## 📊 主な成果物 / Deliverables
 - 距離マップ  
-- Strava 重ね合わせ  
 - 信号・横断歩道マップ  
+- Stravaログ重ね合わせマップ  
 - 街灯密度マップ  
-
-#### 2. PDF レポート  
-- 背景  
-- 方法  
-- 分析結果  
-- 考察  
-- 結論（推奨ルート案）  
+- 最終レポート（PDF）  
+- 発表用 PowerPoint（上記リンク）
 
 ---
 
-## 📁 ディレクトリ構成（例） / Directory Structure (Example)
+## 📂 ディレクトリ構成（例） / Directory Structure
 
