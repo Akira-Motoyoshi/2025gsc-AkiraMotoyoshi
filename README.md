@@ -4,7 +4,7 @@
 ### (Fuchinobe Station North Exit → Aoyama Gakuin Univ. Sagamihara Campus)
 
 ---
-# presentation
+# Power Point https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA
 ---
 ## 📌 1. 研究概要 / Research Overview
 
