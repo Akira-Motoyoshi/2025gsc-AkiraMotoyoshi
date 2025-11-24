@@ -21,12 +21,12 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ## 📌 2. 研究目的 / Objectives
 
-### 🇯🇵  
+### 🇯🇵  日本語
 - 通学ルートの **距離・安全性・歩きやすさ** を定量的に比較  
 - 学生がルートを選ぶ理由を把握する  
 - QGIS で地図として可視化し、レポートとしてまとめる  
 
-### 🌐 
+### 🌐 English
 - Quantitatively compare **distance, safety, and walkability** of commuting routes  
 - Understand why students choose specific routes  
 - Visualize maps in QGIS and summarize findings in a final report  
@@ -35,14 +35,14 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ## 🛠 3. 使用ツール / Tools
 
-### 🇯🇵  
+### 🇯🇵  日本語
 - **QGIS**：距離計測、街灯密度分析、地図作成  
 - **OpenStreetMap (OSM)**：道路・信号・横断歩道・街灯データ  
 - **Google Earth**：景観確認、歩道状況のチェック  
 - **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析
 - **ChatGPT**：研究設計、手順の作成、分析補助、コーディング補助 
 
-### 🌐 
+### 🌐 English
 - **QGIS:** distance measurement, streetlight density analysis, map creation  
 - **OpenStreetMap:** road network, signals, crosswalks, streetlight data  
 - **Google Earth:** visual confirmation of sidewalks and surroundings  
@@ -63,14 +63,14 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ### 📍 ② 評価項目 / Evaluation Items  ✅DONE
 
-#### 日本語
+#### 🇯🇵日本語
 1. **最短距離**  
 2. **歩きやすさ（障害物）**  
    - 信号・横断歩道  
    - 歩道の広さ・段差  
 3. **夜の安全性（街灯密度）**
 
-#### English
+#### 🌐English
 1. **Shortest distance**  
 2. **Walkability (obstacles)**  
    - Traffic lights, crosswalks  
@@ -108,13 +108,13 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 ---
 
 ### 📍 ⑥ 夜の安全性（街灯密度）分析  
-#### 日本語  
+#### 🇯🇵日本語  
 - OSM の `highway=street_lamp` を QGIS に読み込み  
 - 夜に実際のルートを歩いて明るさを5段階評価  
 - 暗い区間・死角をチェック  
 - 街灯密度マップを QGIS で作成  
 
-#### English  
+#### 🌐English  
 - Import streetlight data from OSM  
 - Walk the route at night and evaluate brightness (1–5 scale)  
 - Identify dark zones and blind spots  
