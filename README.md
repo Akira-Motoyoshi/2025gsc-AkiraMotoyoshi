@@ -1,5 +1,5 @@
 # 2025gsc-AkiraMotoyoshi
-# 🚶‍♂️ 登校ルート分析（淵野辺駅北口 → 青山学院大学相模原キャンパス）
+# 🚶‍♂️ 登下校ルート分析（淵野辺駅北口 → 青山学院大学相模原キャンパス）
 ## School Commuting Route Analysis  
 ### (Fuchinobe Station North Exit → Aoyama Gakuin Univ. Sagamihara Campus)
 
