@@ -39,13 +39,15 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - **QGIS**：距離計測、街灯密度分析、地図作成  
 - **OpenStreetMap (OSM)**：道路・信号・横断歩道・街灯データ  
 - **Google Earth**：景観確認、歩道状況のチェック  
-- **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析  
+- **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析
+- **ChatGPT**：研究設計、手順の作成、分析補助、コーディング補助 
 
 ### 🇬🇧  
 - **QGIS:** distance measurement, streetlight density analysis, map creation  
 - **OpenStreetMap:** road network, signals, crosswalks, streetlight data  
 - **Google Earth:** visual confirmation of sidewalks and surroundings  
-- **Strava (Free):** walking logs (GPX), speed, and stopping time analysis  
+- **Strava (Free):** walking logs (GPX), speed, and stopping time analysis
+- **ChatGPT:** research planning support, analytical assistance, workflow design, coding support
 
 ---
 
