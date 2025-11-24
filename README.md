@@ -53,13 +53,13 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ① 対象区間の設定 / Defining the Study Area  
+### 📍 ① 対象区間の設定 / Defining the Study Area  ✅DONE
 - **淵野辺駅北口 → 青山学院大学相模原キャンパス正門**  
 - 全ツールの準備（QGIS / OSM / Google Earth / Strava）
 
 ---
 
-### 📍 ② 評価項目 / Evaluation Items  
+### 📍 ② 評価項目 / Evaluation Items  ✅DONE
 
 #### 日本語
 1. **最短距離**  
@@ -77,7 +77,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ③ 基本ルートの決定 / Defining the Representative Route  
+### 📍 ③ 基本ルートの決定 / Defining the Representative Route  ✅DONE
 - 実際に学生が最も多く使う **代表ルートを1本設定**  
 - QGIS で LineString として作成  
 - 全ての分析はこのルートを対象に行う  
