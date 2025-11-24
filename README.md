@@ -19,7 +19,7 @@ Google Earth / QGIS / OpenStreetMap / Strava / ChatGPT など、
 ## 📂 **Power Point（発表スライド）**  
   👉 [こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
 
-※ 発表用スライドとして作成した PowerPoint データで、本研究の概要・分析結果・マップ画像などをまとめています。
+
 
 ---
 
