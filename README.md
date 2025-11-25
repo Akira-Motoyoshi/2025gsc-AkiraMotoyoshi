@@ -170,9 +170,9 @@ QGIS で以下の可視化を作成：
 
 ---
 ###先行研究
-Ohtomo, S. (2008). 小学校におけるGISの学校安全への応用に関する研究（Research on the application of GIS for school safety in elementary schools）. 兵庫教育大学研究紀要, 33, 45–56.https://hyogo-u.repo.nii.ac.jp/record/2494/files/geo1303.pdf
-Wao, K. (2014). 通学路における不安箇所のマッピングとその空間的特徴（Mapping of anxiety spots along school routes and their spatial characteristics）.https://cir.nii.ac.jp/crid/1390282680673368704
-Yoshiki, S. (2017). 通学路における小学生のアクティビティの発生傾向とその要因の検討（Analysis of children’s activity patterns and influencing factors along school routes）. 日本建築学会計画系論文集, 52(3), 879–885.https://www.jstage.jst.go.jp/article/journalcpij/52/3/52_879/_article/-char/ja/
+-Ohtomo, S. (2008). 小学校におけるGISの学校安全への応用に関する研究（Research on the application of GIS for school safety in elementary schools）. 兵庫教育大学研究紀要, 33, 45–56.https://hyogo-u.repo.nii.ac.jp/record/2494/files/geo1303.pdf
+-Wao, K. (2014). 通学路における不安箇所のマッピングとその空間的特徴（Mapping of anxiety spots along school routes and their spatial characteristics）.https://cir.nii.ac.jp/crid/1390282680673368704
+-Yoshiki, S. (2017). 通学路における小学生のアクティビティの発生傾向とその要因の検討（Analysis of children’s activity patterns and influencing factors along school routes）. 日本建築学会計画系論文集, 52(3), 879–885.https://www.jstage.jst.go.jp/article/journalcpij/52/3/52_879/_article/-char/ja/
 <img width="1894" height="176" alt="image" src="https://github.com/user-attachments/assets/7306671f-5605-4113-b64a-15e47b0f1c3a" />
 ---
 
