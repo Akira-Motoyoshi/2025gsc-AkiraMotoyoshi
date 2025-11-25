@@ -1,14 +1,14 @@
 # 2025gsc-AkiraMotoyoshi
-# 🚶‍♂️ 登下校ルート分析（淵野辺駅北口 → 青山学院大学相模原キャンパス）
+# 登下校ルート分析（淵野辺駅北口 → 青山学院大学相模原キャンパス）
 ## School Commuting Route Analysis  
 ### (Fuchinobe Station North Exit → Aoyama Gakuin Univ. Sagamihara Campus)
 ---
 ## 📂 **Power Point（発表スライド）**  
-  👉 [こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
+  [こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
 
 ---
 
-## 📌 1. 研究概要 / Research Overview
+##  1. 研究概要 / Research Overview
 
 ### 🇯🇵 日本語  
 本研究は、実際の学生が通学で使用する「淵野辺駅北口 → 青山学院大学相模原キャンパス」のルートを対象に、  
@@ -22,14 +22,14 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-## 📌 2. 研究目的 / Objectives
+##  2. 研究目的 / Objectives
 
-### 🇯🇵  
+### 🇯🇵 日本語 
 - 通学ルートの **距離・安全性・歩きやすさ** を定量的に比較  
 - 学生がルートを選ぶ理由を把握する  
 - QGIS で地図として可視化し、レポートとしてまとめる  
 
-### 🌐  
+### 🌐  English
 - Quantitatively compare **distance, safety, and walkability** of commuting routes  
 - Understand why students choose specific routes  
 - Visualize maps in QGIS and summarize findings in a final report  
@@ -38,14 +38,14 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ## 🛠 3. 使用ツール / Tools
 
-### 🇯🇵  
+### 🇯🇵  日本語
 - **QGIS**：距離計測、街灯密度分析、地図作成  
 - **OpenStreetMap (OSM)**：道路・信号・横断歩道・街灯データ  
 - **Google Earth**：景観確認、歩道状況のチェック  
 - **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析  
 - **ChatGPT**：研究設計、手順の作成、分析補助、コーディング補助  
 
-### 🌐  
+### 🌐  English
 - **QGIS:** distance measurement, streetlight density analysis, map creation  
 - **OpenStreetMap:** road network, signals, crosswalks, streetlight data  
 - **Google Earth:** visual confirmation of sidewalks and surroundings  
@@ -54,17 +54,17 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-## 📍 4. 研究フロー / Research Workflow
+## 4. 研究フロー / Research Workflow
 
 ---
 
-### 📍 ① 対象区間の設定 / Defining the Study Area  ✅DONE
+###  ① 対象区間の設定 / Defining the Study Area  ✅DONE
 - **淵野辺駅北口 → 青山学院大学相模原キャンパス正門**  
 - 全ツールの準備（QGIS / OSM / Google Earth / Strava）
 
 ---
 
-### 📍 ② 評価項目 / Evaluation Items  ✅DONE
+###  ② 評価項目 / Evaluation Items  ✅DONE
 
 #### 🇯🇵 日本語
 1. **最短距離**  
@@ -82,21 +82,21 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ③ 基本ルートの決定 / Defining the Representative Route  ✅DONE
+###  ③ 基本ルートの決定 / Defining the Representative Route  ✅DONE
 - 実際に学生が最も多く使う **代表ルートを1本設定**  
 - QGIS で LineString として作成  
 - 全ての分析はこのルートを対象に行う  
 
 ---
 
-### 📍 ④ 最短距離の測定（QGIS） / Distance Measurement  
+###  ④ 最短距離の測定（QGIS） / Distance Measurement  
 - QGIS の計測ツール or ネットワーク解析を使用  
 - ルートの総距離（m）を算出  
 - 結果はレポートへ反映  
 
 ---
 
-### 📍 ⑤ 歩きやすさ分析（Strava + OSM + QGIS）  
+###  ⑤ 歩きやすさ分析（Strava + OSM + QGIS）  
 #### 1. Strava で歩行ログを取得  
 - 実際に歩き、**GPX を記録**  
 - 停止時間（信号待ち）や平均速度を取得  
@@ -110,7 +110,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ⑥ 夜の安全性（街灯密度）分析  
+###  ⑥ 夜の安全性（街灯密度）分析  
 #### 🇯🇵 日本語  
 - OSM の `highway=street_lamp` を QGIS に取り込み  
 - 夜に実際のルートを歩いて明るさを5段階評価  
@@ -125,7 +125,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ⑦ 学生アンケート / Student Survey  
+###  ⑦ 学生アンケート / Student Survey  
 - Google Forms を使用  
 - 回答項目：  
   - 普段の通学ルート  
@@ -136,7 +136,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### 📍 ⑧ 分析・考察 / Analysis & Discussion  
+###  ⑧ 分析・考察 / Analysis & Discussion  
 QGIS で以下の可視化を作成：
 
 - **距離マップ**  
@@ -153,7 +153,7 @@ QGIS で以下の可視化を作成：
 
 ---
 
-### 📍 ⑨ 最終成果物 / Final Deliverables
+###  ⑨ 最終成果物 / Final Deliverables
 
 #### 1. QGIS 可視化マップ  
 - 距離マップ  
