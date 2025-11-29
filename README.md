@@ -194,5 +194,5 @@ GIS を用いて小学校の通学路における危険箇所を可視化した�
 **リンク**：https://www.jstage.jst.go.jp/article/journalcpij/52/3/52_879/_article/-char/ja/
 ---
 
-## 📁 ディレクトリ構成（例） / Directory Structure (Example)
+## 📁 ディレクトリ構成 / Directory Structure
 
