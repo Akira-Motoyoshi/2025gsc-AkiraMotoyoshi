@@ -103,7 +103,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### ⑤ 歩きやすさ分析（Strava + OSM + QGIS）
+### ⑤ 歩きやすさ分析（Strava + OSM + QGIS) On going
 
 #### 1. Strava で歩行ログを取得  
 - 実際に歩き、**GPX を記録**  
