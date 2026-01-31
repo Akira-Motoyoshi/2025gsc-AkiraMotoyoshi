@@ -82,8 +82,9 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - 実際に学生が利用していると考えられるルートを優先
 
 絞り込んだ複数の候補ルートを **QGIS 上に LineString として作成**し、  
-本研究の分析対象とした。（※後ほど地図画像を追加予定）
-
+本研究の分析対象とした。
+**図1：ルート選定結果（QGIS）**  
+![ルート選定図](images/route_comparison.png)
 ---
 
 ### 2. ルートのセクション分割
