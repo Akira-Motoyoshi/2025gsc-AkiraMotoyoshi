@@ -89,7 +89,7 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 
 ![セクションタイム](route_times_all.csv)
 
-[時間と距離](time_distance.png)
+![時間と距離](time_distance.png)
 
 ---
 
