@@ -94,6 +94,49 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - ルートと比較し、障害物の位置を定量化  
 
 ---
+---
+
+### ⑤ 信号待ち時間の算定 / Signal Waiting Time Estimation
+
+#### 🇯🇵 日本語
+本研究では、交差点における信号待ち時間を  
+**信号ローテーション構造に基づく期待値モデル**を用いて算定する。
+
+**前提**
+- 信号は一定の周期（ローテーション）で繰り返される
+- 歩行者の到着時刻は、1ローテーション内で一様分布すると仮定する
+- 平均待ち時間は以下で評価する  
+
+\[
+\text{平均待ち時間} = \frac{\text{最大待ち時間}}{2}
+\]
+
+**対象交差点と採用値**
+- **Point B（淵野辺駅入口交差点）**  
+  縦断のみ／横断＋縦断の2パターンが存在するため、  
+  両者が同確率で発生すると仮定し、平均信号遅延を **58秒** とした。
+
+- **Point C（青山学院大学入口交差点）**  
+  歩行者縦フェーズのみ通行可能な交差点について、  
+  ストップウォッチによる実測ローテーション（75.74秒）を基に算定し、  
+  平均信号遅延を **26.6秒** とした。
+
+これらの値を、登下校ルート全体の所要時間評価に加算する。
+
+#### 🌐 English
+Signal waiting time is estimated using an **expected value model** based on signal cycles.
+
+**Assumptions**
+- Signals operate in fixed cycles
+- Pedestrian arrival time is uniformly distributed within a cycle
+- Average waiting time is calculated as half of the maximum waiting time
+
+**Adopted values**
+- **Point B (Fuchinobe Station Intersection):** 58 seconds  
+- **Point C (AGU Main Gate Intersection):** 26.6 seconds  
+
+These values are incorporated into the total commuting time analysis.
+----
 
 ### ⑥ 夜の安全性（街灯密度）分析
 
