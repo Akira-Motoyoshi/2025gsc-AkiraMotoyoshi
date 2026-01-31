@@ -6,12 +6,19 @@
 
 ---
 
-## 📂 **Power Point（発表スライド）**
+##  **Power Point（発表スライド）**
 
 [こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
 
 ---
+## License
 
+This project is licensed under the  
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
+
+© 2025 Yudai Kato  
+https://creativecommons.org/licenses/by/4.0/
+---
 ## 1. 研究概要 / Research Overview
 
 ### 🇯🇵 日本語
