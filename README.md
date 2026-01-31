@@ -16,7 +16,7 @@
 This project is licensed under the  
 **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
 
-© 2025 Yudai Kato  
+© 2025 Akira Motoyoshi 
 https://creativecommons.org/licenses/by/4.0/
 ---
 ## 1. 研究概要 / Research Overview
