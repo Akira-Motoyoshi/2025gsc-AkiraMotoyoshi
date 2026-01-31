@@ -76,8 +76,10 @@ Strava（無料版）の Walk 機能を用い、淵野辺駅改札から大学�
 ### 4. GPX データの分割と整理
 
 取得した GPX データは **GPX Track Splitter** を用いてセクション単位に分割した。  
+
 https://mapconcierge.github.io/GPXtrackSplitter/
-![GPX_Track_Splitter.png](GPX_Track_Splitter.png)
+
+![GPX_Track_Splitter.png](gpx_track_splitter.png)
 ---
 
 ### 5. セクション別平均値の算出
