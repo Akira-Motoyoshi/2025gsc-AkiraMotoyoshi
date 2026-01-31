@@ -65,6 +65,7 @@ https://creativecommons.org/licenses/by/4.0/
 ![section_image.png](section_map.png)
 
 ![routes_comparison.png](section_map_zoom1_.png)
+
 ![routes_comparison.png](section_map_zoom2.png)
 
 ---
