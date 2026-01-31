@@ -62,7 +62,10 @@ https://creativecommons.org/licenses/by/4.0/
 
 全交差点で分割しなかった理由は、セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるためである。
 
-![section_image.png](section_image.png)
+![section_image.png](section_map.png)
+
+![routes_comparison.png](section_map_zoom1_.png)
+![routes_comparison.png](section_map_zoom2.png)
 
 ---
 
