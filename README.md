@@ -86,6 +86,7 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 
 すべてのセクションについて、歩行時間および距離を Excel に整理し、平均値を算出した。  
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
+
 ![route_times_all.csv](route_times_all.csv)
 ---
 
