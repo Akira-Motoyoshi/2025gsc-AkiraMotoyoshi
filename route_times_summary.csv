@@ -1,0 +1,17 @@
+route_name,sections,section time,section distance
+Level1_PointA_route1,A1 A2,288.854902,401.1475743
+Level1_PointB_route1,A1 A2 B3,378.5215686,517.6651045
+Level1_PointB_route2,B1 B4,324.4,442.7169859
+Level1_PointB_route3,A1 B2 B4,434.5382353,629.7836072
+Level1_PointC_route1,A1 A2 B3 C2,486.5215686,667.6651045
+Level1_PointC_route2,A1 B2 C1,560.504902,782.976327
+Level1_PointC_route3,A1 B2 B4 C2,542.5382353,779.7836072
+Level1_PointC_route4,B1 C1,450.3666667,595.9097057
+Level2_PointA-Goal_route1,E1,321,421.8608324
+Level2_PointA-Goal_route2,E2,249.6666667,365.5815585
+Level2_PointA-Goal_route3,B3 E4,289.4666667,430.1586101
+Level2_PointA-Goal_route4,B3 E5,299.6666667,417.6316795
+Level2_PointB-Goal_route1,E3,186.0769231,268.9887667
+Level2_PointB-Goal_route2,E4,199.8,313.6410798
+Level2_PointB-Goal_route3,E5,210,301.1141492
+Level2_PointC-Goal_route1,D1,208.9090909,281.4778061

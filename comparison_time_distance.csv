@@ -1,0 +1,4 @@
+point,route name,sections,section time/second,section distance/meter,traffic sign,total time
+A," route1, route2","A1, A2, E2",539,767,0,539
+B,"route2, route1","B1, B4, E3",621,899,58,679
+C,"route4, route 1","B1,C1, D1",659,877,22,681
