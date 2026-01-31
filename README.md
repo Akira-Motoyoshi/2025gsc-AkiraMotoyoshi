@@ -88,6 +88,7 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
 
 ![セクションタイム](route_times_all.csv)
+[時間と距離](time_distance.png)
 ---
 
 ### 6. 最速ルートの構成（セクション合成）
