@@ -91,6 +91,10 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 
 ![時間と距離](time_distance.png)
 
+![セクション毎　最速タイム](comparison1.png)
+
+
+
 ---
 
 ### 6. 最速ルートの構成（セクション合成）
