@@ -103,7 +103,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - セクションが短くなりすぎると、  
   GPS誤差や計測誤差の影響が相対的に大きくなるため
 
-この結果、分析に用いるセクションは以下の構成となった。（※後ほど図を追加予定）
+この結果、分析に用いるセクションは以下の構成となった。
 
 ![セクション図](section_image.png)
 ---
@@ -125,8 +125,8 @@ Strava（無料版）の **Walk 機能**を用いて、
 
 取得した GPX データは、  
 **GPX Track Splitter** を用いてセクション単位に分割した。
+https://mapconcierge.github.io/GPXtrackSplitter/
 
-- 1セクション = 1GPX
 - 各セクションについて、時間・距離データを抽出
 
 ---
