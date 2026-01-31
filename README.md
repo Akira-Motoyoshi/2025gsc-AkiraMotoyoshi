@@ -63,33 +63,16 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 ---
 
 ### ① 対象区間の設定 / Defining the Study Area  
-✅ DONE  
+
 - **淵野辺駅北口 → 青山学院大学相模原キャンパス正門**  
 - 全ツールの準備（QGIS / OSM / Google Earth / Strava）
 
----
 
-### ② 評価項目 / Evaluation Items  
-✅ DONE
-
-#### 🇯🇵 日本語
-1. **最短距離**  
-2. **歩きやすさ（障害物）**  
-   - 信号・横断歩道  
-   - 歩道の広さ・段差  
-3. **夜の安全性（街灯密度）**
-
-#### 🌐 English
-1. **Shortest distance**  
-2. **Walkability (obstacles)**  
-   - Traffic lights, crosswalks  
-   - Sidewalk conditions  
-3. **Nighttime safety (streetlight density)**
 
 ---
 
-### ③ 基本ルートの決定 / Defining the Representative Route  
-✅ DONE  
+### ②基本ルートの決定 / Defining the Representative Route  
+
 - 実際に学生が最も多く使う **代表ルートを1本設定**  
 - QGIS で LineString として作成  
 - 全ての分析はこのルートを対象に行う  
@@ -102,12 +85,6 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 - 結果はレポートへ反映  
 
 ---
-
-### ⑤ 歩きやすさ分析（Strava + OSM + QGIS) On going
-
-#### 1. Strava で歩行ログを取得  
-- 実際に歩き、**GPX を記録**  
-- 停止時間（信号待ち）や平均速度を取得  
 
 #### 2. QGIS に GPX をインポート  
 - 速度低下区間・停止ポイントを可視化  
@@ -134,16 +111,6 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
 
 ---
 
-### ⑦ 学生アンケート / Student Survey
-- Google Forms を使用  
-- 回答項目：  
-  - 普段の通学ルート  
-  - ルート選択理由  
-  - 夜に歩くか  
-  - 満足度（5段階）  
-- 必要に応じて回答ルートを QGIS に追加  
-
----
 
 ### ⑧ 分析・考察 / Analysis & Discussion
 
@@ -157,8 +124,6 @@ QGIS で以下の可視化を作成：
 - 距離差  
 - 障害物の多さ  
 - 夜の安全性  
-- 学生アンケートの傾向  
-
 ---
 
 ### ⑨ 最終成果物 / Final Deliverables
@@ -169,12 +134,6 @@ QGIS で以下の可視化を作成：
 - 信号・横断歩道マップ  
 - 街灯密度マップ  
 
-#### 2. PDF レポート  
-- 背景  
-- 方法  
-- 分析結果  
-- 考察  
-- 結論（推奨ルート案）  
 
 ---
 
