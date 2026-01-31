@@ -104,6 +104,7 @@ Data collection and visualization are performed using **Google Earth, QGIS, Open
   GPS誤差や計測誤差の影響が相対的に大きくなるため
 
 この結果、分析に用いるセクションは以下の構成となった。（※後ほど図を追加予定）
+
 ![セクション図](section_image.png)
 ---
 
