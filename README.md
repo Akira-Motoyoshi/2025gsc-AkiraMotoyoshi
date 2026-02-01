@@ -168,22 +168,4 @@ E(W) = \frac{T_{\text{red}}}{2}
 
 ---
 
-## 📚 先行研究まとめ / Related Works
-
-### 1. 大友秀一（2008）  
-**タイトル**：小学校におけるGISの学校安全への応用に関する研究  
-https://hyogo-u.repo.nii.ac.jp/record/2494/files/geo1303.pdf
-
-### 2. 王尾和寿（2014）  
-**タイトル**：通学路における不安箇所のマッピングとその空間的特徴  
-https://cir.nii.ac.jp/crid/1390282680673368704
-
-### 3. 吉城秀治（2017）  
-**タイトル**：通学路における小学生のアクティビティの発生傾向とその要因の検討  
-https://www.jstage.jst.go.jp/article/journalcpij/52/3/52_879/_article/-char/ja/
-
----
-
-## 📁 ディレクトリ構成 / Directory Structure
-
 
