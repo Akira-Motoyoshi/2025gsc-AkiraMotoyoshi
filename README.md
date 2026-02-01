@@ -43,8 +43,8 @@ https://creativecommons.org/licenses/by/4.0/
 
 絞り込んだ複数の候補ルートを QGIS 上に LineString として作成し、分析対象とした。
 
-![section_image.png](section_map.png)  
-![routes_comparison.png](routes_comparison.png)
+![section_image.png](images/section_map.png)  
+![routes_comparison.png](images/routes_comparison.png)
 
 ---
 
@@ -60,9 +60,9 @@ https://creativecommons.org/licenses/by/4.0/
 
 セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるため、全ての交差点でセクションを分けず、セクション数は必要最小限とした。
 
-![section_image.png](section_map.png)  
-![routes_comparison.png](section_map_zoom1_.png)  
-![routes_comparison.png](section_map_zoom2.png)
+![section_image.png](images/section_map.png)  
+![routes_comparison.png](images/section_map_zoom1_.png)  
+![routes_comparison.png](images/section_map_zoom2.png)
 
 ---
 
@@ -79,7 +79,7 @@ Strava（無料版）の Walk 機能を用い、淵野辺駅改札から大学�
 
 https://mapconcierge.github.io/GPXtrackSplitter/
 
-![GPX_Track_Splitter.png](gpx_track_splitter.png)
+![GPX_Track_Splitter.png](images/gpx_track_splitter.png)
 
 ---
 
@@ -88,9 +88,9 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 すべてのセクションについて、歩行時間および距離を Excel に整理し、平均値を算出した。  
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
 
-![セクションタイム](route_times_all.csv)  
-![時間と距離](time_distance.png)  
-![セクション毎 最速タイム](comparison1.png)
+[セクションタイムCSV](images/route_times_all.csv)  
+![時間と距離](images/time_distance.png)  
+![セクション毎 最速タイム](images/comparison1.png)
 
 ---
 
@@ -113,9 +113,10 @@ E(W) = \frac{T_{\text{red}}}{2}
 
 ## 7. 信号のない横断歩道の処理
 
-Stravaのデータより、信号がない横断歩道のあるヘルクレス通りを渡るために待った時間の平均は約10秒。
-横断する時間も含め、ヘルクレス通りをわたる場合には+15秒とする。
-また、他にも信号のない横断歩道（例：淵野辺105号付近）が存在するが、観測期間中において待ち時間が一切発生しなかった。
+Stravaのデータより、信号がない横断歩道のあるヘルクレス通りを渡るために待った時間の平均は約10秒。  
+横断する時間も含め、ヘルクレス通りをわたる場合には +15秒 とする。
+
+また、他にも信号のない横断歩道（例：淵野辺105号付近）が存在するが、観測期間中において待ち時間が一切発生しなかった。  
 この横断地点は車両交通量が非常に少ないことから、当該箇所については遅延時間の算入は行わないこととする。
 
 ---
@@ -130,7 +131,7 @@ Stravaのデータより、信号がない横断歩道のあるヘルクレス�
 
 また、街灯密度の分析から、夜間においては最短距離ルートが必ずしも安全とは言えない可能性が示された。
 
-![導き出された最短ルート](fastest_route.png)
+![導き出された最短ルート](images/fastest_route.png)
 
 ---
 
@@ -151,3 +152,4 @@ Stravaのデータより、信号がない横断歩道のあるヘルクレス�
 - **Google Earth**：景観確認、歩道状況のチェック  
 - **Strava（無料版）**：歩行ログ（GPX）取得、移動速度・停止時間の分析  
 - **ChatGPT**：研究設計、手順作成、分析補助、コーディング補助  
+  
