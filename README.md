@@ -45,8 +45,6 @@ https://creativecommons.org/licenses/by/4.0/
 
 ![section_image.png](images/section_map.png)  
 
-![routes_comparison.png](images/routes_comparison.png)
-
 ---
 
 ## 2. ルートのセクション分割
