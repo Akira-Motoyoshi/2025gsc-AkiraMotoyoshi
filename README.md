@@ -41,7 +41,7 @@ https://creativecommons.org/licenses/by/4.0/
 - 距離や構造がほぼ同一のルートは代表的なものに集約  
 - 実際に学生が利用していると考えられるルートを優先  
 
-絞り込んだ複数の候補ルートを QGIS 上に LineString として作成し、分析対象とした。
+道をセクションにわけ、QGIS 上に LineString として作成し、分析対象とした。
 
 ![section_image.png](images/section_map.png)  
 
