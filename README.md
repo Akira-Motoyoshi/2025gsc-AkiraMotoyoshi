@@ -44,6 +44,7 @@ https://creativecommons.org/licenses/by/4.0/
 絞り込んだ複数の候補ルートを QGIS 上に LineString として作成し、分析対象とした。
 
 ![section_image.png](images/section_map.png)  
+
 ![routes_comparison.png](images/routes_comparison.png)
 
 ---
@@ -61,8 +62,11 @@ https://creativecommons.org/licenses/by/4.0/
 セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるため、全ての交差点でセクションを分けず、セクション数は必要最小限とした。
 
 ![section_image.png](images/section_map.png)  
+
 ![routes_comparison.png](images/section_map_zoom1_.png)  
+
 ![routes_comparison.png](images/section_map_zoom2.png)
+
 
 ---
 
@@ -89,7 +93,9 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
 
 [セクションタイムCSV](images/route_times_all.csv)  
+
 ![時間と距離](images/time_distance.png)  
+
 ![セクション毎 最速タイム](images/comparison1.png)
 
 ---
