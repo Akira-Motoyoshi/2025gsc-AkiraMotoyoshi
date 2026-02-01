@@ -44,6 +44,7 @@ https://creativecommons.org/licenses/by/4.0/
 - 実際に学生が利用していると考えられるルートを優先  
 
 絞り込んだ複数の候補ルートを QGIS 上に LineString として作成し、分析対象とした。
+
 ![section_image.png](section_map.png)
 
 ![routes_comparison.png](routes_comparison.png)
