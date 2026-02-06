@@ -7,7 +7,8 @@
 
 ## Power Point（発表スライド）
 
-[こちらのリンクから閲覧できます](https://aoyamajp-my.sharepoint.com/:p:/g/personal/aa123191_aoyama_jp/ESa7l4GgSRtOpCJfYLqhQcQBFu6b1HZE5cE1NhNoImUE-A?e=4aRIaA)
+発表スライドは[スライドはこちら](https://docs.google.com/presentation/d/1bK46tgva-Cu4hoT6Y-DhLC7425q-rJpIZl_bWpgDZA0/edit?slide=id.g3bd429196ec_2_8#slide=id.g3bd429196ec_2_8)
+
 
 ---
 
