@@ -59,12 +59,14 @@ https://creativecommons.org/licenses/by/4.0/
 
 セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるため、全ての交差点でセクションを分けず、セクション数は必要最小限とした。
 
-![section_image.png](images/section_map.png)  
+![section_map](https://github.com/user-attachments/assets/5c2bc387-f54d-48e0-b78a-397a44146bba)
+
 
 <img width="1440" height="900" alt="routes_comparison" src="https://github.com/user-attachments/assets/3342a77b-d9c3-430b-ac14-8e5034c905e4" />
 
 
-![routes_comparison.png](images/section_map_zoom2.png)
+![section_map_zoom2](https://github.com/user-attachments/assets/b609701b-b5db-402e-bcf4-d5aff3d19809)
+
 
 
 ---
