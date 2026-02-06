@@ -61,7 +61,8 @@ https://creativecommons.org/licenses/by/4.0/
 
 ![section_image.png](images/section_map.png)  
 
-![routes_comparison.png](images/section_map_zoom1_.png)  
+<img width="1440" height="900" alt="routes_comparison" src="https://github.com/user-attachments/assets/3342a77b-d9c3-430b-ac14-8e5034c905e4" />
+
 
 ![routes_comparison.png](images/section_map_zoom2.png)
 
