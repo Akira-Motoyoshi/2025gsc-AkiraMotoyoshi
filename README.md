@@ -28,7 +28,8 @@ https://creativecommons.org/licenses/by/4.0/
 本研究は、**淵野辺駅北口から青山学院大学相模原キャンパスまでの登下校ルート**を対象に、  
 実測データに基づき、実質的に最も効率的な通学ルートを明らかにすることを目的とする。
 
----
+---![section_map](https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090)
+
 
 # II. Methods（研究方法）
 
@@ -43,7 +44,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 道をセクションにわけ、QGIS 上に LineString として作成し、分析対象とした。
 
-![section_image.png](images/section_map.png)  
+<img src="https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090"width="300">
 
 ---
 
@@ -59,10 +60,11 @@ https://creativecommons.org/licenses/by/4.0/
 
 セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるため、全ての交差点でセクションを分けず、セクション数は必要最小限とした。
 
-![section_map](https://github.com/user-attachments/assets/5c2bc387-f54d-48e0-b78a-397a44146bba)
+![section_map](https://github.com/user-attachments/assets/caa2f61c-f49e-45ff-9563-d99785b9425a)
 
 
-<img width="1440" height="900" alt="routes_comparison" src="https://github.com/user-attachments/assets/3342a77b-d9c3-430b-ac14-8e5034c905e4" />
+
+<img width="1440" height="900" alt="routes_comparison" src="https://github.com/user-attachments/assets/3342a77b-d9c3-430b-ac14-8e5034c905e4"/>
 
 
 ![section_map_zoom2](https://github.com/user-attachments/assets/b609701b-b5db-402e-bcf4-d5aff3d19809)
