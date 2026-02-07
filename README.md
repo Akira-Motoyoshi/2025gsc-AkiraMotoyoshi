@@ -5,7 +5,7 @@
 
 ---
 
-## Power Point（発表スライド）
+## スライド
 
 発表スライドは[スライドはこちら](https://docs.google.com/presentation/d/1bK46tgva-Cu4hoT6Y-DhLC7425q-rJpIZl_bWpgDZA0/edit?slide=id.g3bd429196ec_2_8#slide=id.g3bd429196ec_2_8)
 
