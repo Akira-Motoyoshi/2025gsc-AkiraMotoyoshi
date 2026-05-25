@@ -31,7 +31,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 ---
 
-![section_map](https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090)
+![all_routes](images/all_routes.png)
 
 
 # II. Methods（研究方法）
@@ -47,7 +47,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 道をセクションにわけ、QGIS 上に LineString として作成し、分析対象とした。
 
-<img src="https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090" width="300">
+![routes_comparison](images/routes_comparison.png)
 
 ---
 
@@ -63,16 +63,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 セクションが短くなりすぎると GPS 誤差や計測誤差の影響が相対的に大きくなるため、全ての交差点でセクションを分けず、セクション数は必要最小限とした。
 
-![section_map](https://github.com/user-attachments/assets/caa2f61c-f49e-45ff-9563-d99785b9425a)
-
-
-
-<img width="1440" height="900" alt="routes_comparison" src="https://github.com/user-attachments/assets/3342a77b-d9c3-430b-ac14-8e5034c905e4"/>
-
-
-![section_map_zoom2](https://github.com/user-attachments/assets/b609701b-b5db-402e-bcf4-d5aff3d19809)
-
-
+![all_routes](images/all_routes.png)
 
 ---
 
@@ -89,6 +80,8 @@ Strava（無料版）の Walk 機能を用い、淵野辺駅改札から大学�
 
 https://mapconcierge.github.io/GPXtrackSplitter/
 
+![GPX Track Splitter](images/gpx_track_splitter.png)
+
 ---
 
 ## 5. セクション別平均値の算出
@@ -97,6 +90,10 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
 
 [セクションタイムCSV](route_times_all.csv)  
+
+![時間と距離](images/time_distance.png)
+
+![セクション毎 最速タイム](images/comparison1.png)
 
 ---
 
@@ -134,6 +131,8 @@ Stravaのデータより、信号がない横断歩道のあるヘルクレス�
 
 信号待ち時間や横断回数を考慮すると、距離がやや長いルートであっても、  
 停止回数の少ないルートの方が総所要時間が短くなるケースが確認された。。
+
+![導き出された最短ルート](images/fastest_route.png)
 
 ---
 
