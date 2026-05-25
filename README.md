@@ -29,7 +29,9 @@ https://creativecommons.org/licenses/by/4.0/
 本研究は、**淵野辺駅北口から青山学院大学相模原キャンパスまでの登下校ルート**を対象に、  
 実測データに基づき、実質的に最も効率的な通学ルートを明らかにすることを目的とする。
 
----![section_map](https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090)
+---
+
+![section_map](https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090)
 
 
 # II. Methods（研究方法）
@@ -45,7 +47,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 道をセクションにわけ、QGIS 上に LineString として作成し、分析対象とした。
 
-<img src="https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090"width="300">
+<img src="https://github.com/user-attachments/assets/538531a8-b045-4375-b56d-f42b3526e090" width="300">
 
 ---
 
@@ -87,8 +89,6 @@ Strava（無料版）の Walk 機能を用い、淵野辺駅改札から大学�
 
 https://mapconcierge.github.io/GPXtrackSplitter/
 
-![GPX_Track_Splitter.png](images/gpx_track_splitter.png)
-
 ---
 
 ## 5. セクション別平均値の算出
@@ -96,11 +96,7 @@ https://mapconcierge.github.io/GPXtrackSplitter/
 すべてのセクションについて、歩行時間および距離を Excel に整理し、平均値を算出した。  
 平均値を用いた理由は、複数回の計測結果から偶発的な誤差を低減するためである。
 
-[セクションタイムCSV](images/route_times_all.csv)  
-
-![時間と距離](images/time_distance.png)  
-
-![セクション毎 最速タイム](images/comparison1.png)
+[セクションタイムCSV](route_times_all.csv)  
 
 ---
 
@@ -138,8 +134,6 @@ Stravaのデータより、信号がない横断歩道のあるヘルクレス�
 
 信号待ち時間や横断回数を考慮すると、距離がやや長いルートであっても、  
 停止回数の少ないルートの方が総所要時間が短くなるケースが確認された。。
-
-![導き出された最短ルート](images/fastest_route.png)
 
 ---
 
